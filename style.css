@@ -1,0 +1,76 @@
+body{
+		background-color: grey;
+	}
+	#header{
+		background-color: aquamarine;
+		border:double;
+	}
+	#form{
+		background-color: lightblue;
+		width: 50%;
+	}
+	button[type=submit]
+{
+	background-color: lightgreen;
+	border-radius: 4px;
+	padding: 5px;
+	float: right;
+	cursor: pointer;
+}
+button[type=submit]:hover
+{
+	background-color: green;
+	color:white;
+}
+.sidebar {
+  height: 300px;
+  width: 18%;
+  position: fixed;
+  z-index: 1;
+  
+  background-color:white;
+  transition: 0.5s;
+  padding-top: 40px;
+}
+
+.sidebar a {
+  padding: 10px 10px 10px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #111;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  padding-top: 2px;
+  top: 0;
+  right: 20px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  position: fixed;
+  top: 0;
+  outline: none;
+
+}
+
+.openbtn:hover {
+  background-color: #111;
+}
+}
